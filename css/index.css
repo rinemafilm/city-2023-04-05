@@ -23,6 +23,46 @@ body {
     line-height: 1.5;
 }
 
+/* header */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.gnb {
+    display: flex;
+    margin-right: 30px;
+}
+
+.gnb li a {
+    display: block;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.gnb li a:hover {
+    color: orangered;
+}
+
+.btn_login {
+    padding: 9px 20px;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid orangered;
+    cursor : pointer ;
+}
+
+.btn_login:hover {
+    background-color: transparent;
+    color: orangered;
+}
+
 .slide .item {
     height: 400px;
     background-image: url("../img/img_07.jpg");
